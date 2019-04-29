@@ -7,8 +7,8 @@ function Navigation() {
         <Navbar.Brand href='#home'>Google Books Machine</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Search</Nav.Link>
-          <Nav.Link href="#link">Saved</Nav.Link>
+          <Nav.Link href="/Search">Search</Nav.Link>
+          <Nav.Link href="/Saved">Saved</Nav.Link>
           </Nav>
       </Navbar>
   );
